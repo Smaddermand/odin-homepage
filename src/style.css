@@ -1,7 +1,13 @@
 /* Style for project */
 
+/* At the very top of your style.css file */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+
+
 html, body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", "Playfair Display", sans-serif;
     height: 100%;
     margin: 0;
     padding: 0;
