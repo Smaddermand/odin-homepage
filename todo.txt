@@ -1,1 +1,20 @@
 TODO list for the project
+
+Step 1: Set up and planning
+1. Setup structure / template
+    a. consider using a css template?
+        Not right now
+
+2. Get figma file
+
+Step 2: Gather assets
+1. Gather assets
+    a. Find out hot to place in src
+
+2. Select fonts
+    
+    b. Playfair Display and Roboto?
+
+3. Icons needed?
+
+4. Mobile-first?
