@@ -16,12 +16,28 @@ html, body {
 }
 
 header {
-    height: 50px;
+    min-height: 50px;
     background-color: #FFFBF3;
     color: black;
     text-align: center;
-    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 500px; /* Adds padding inside the content container */
+    font-size: 24px;
+    
 }
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover, header a:focus {
+    text-decoration: underline; /* Optionally add back the underline on hover/focus for visual feedback */
+}
+
+
+
 
 main {
     flex-grow: 1; /* Allow main to expand and fill available space */
@@ -39,7 +55,7 @@ footer {
 }
 
 section {
-    padding: 0 200px; /* Adds padding inside the content container */
+    padding: 0 500px; /* Adds padding inside the content container */
 }
 
 .hero {

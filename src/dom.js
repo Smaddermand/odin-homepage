@@ -10,3 +10,9 @@ const cheerfulEggImg = new Image();
 cheerfulEggImg.src = cheerfulEggImage;
 cheerfulEggImg.classList.add("hero-image");
 document.getElementById("image-container").appendChild(cheerfulEggImg);
+
+document.getElementById("button-jump").addEventListener("click", () => {
+    document.getElementById('signup-section').scrollIntoView({
+        behavior: 'smooth'
+    });
+});
