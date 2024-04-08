@@ -8,4 +8,5 @@ import cheerfulEggImage from "./images/cheerfull_egg.png";
 
 const cheerfulEggImg = new Image();
 cheerfulEggImg.src = cheerfulEggImage;
+cheerfulEggImg.classList.add("hero-image");
 document.getElementById("image-container").appendChild(cheerfulEggImg);
