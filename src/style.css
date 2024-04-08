@@ -38,19 +38,43 @@ footer {
     padding: 10px 0;
 }
 
+section {
+    padding: 0 200px; /* Adds padding inside the content container */
+}
+
 .hero {
     height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-left {
+    max-width: 500px;
+    padding-right: 100px;
+    box-sizing: border-box;
+
+    
 }
 
 .main {
     height: 500px;
     background-color: #F6E6D9;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-left {
+    max-width: 500px;
+    
 }
 
 .signup {
-    
+    height: 250px;    
     
 }
+
+
+
 
 /* Additional styles for footer to ensure it stays at the bottom */
 footer {
