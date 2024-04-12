@@ -129,4 +129,36 @@ footer {
     width: 100%;
 }
 
+@media (max-width: 600px) {
+    header, section {
+        padding: 20px 10px;  /* More reasonable padding for small screens */
+    }
+
+    .hero-left, .main-left {
+        padding-right: 0;  /* Remove right padding */
+        max-width: 100%;   /* Allow these elements to expand to full width */
+        flex-basis: auto;  /* Adjust the size automatically */
+    }
+
+    .hero, .main {
+        flex-direction: column; /* Stack children vertically */
+    }
+
+    .image-container {
+        width: 100%; /* Full width to accommodate smaller screens */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 0; /* Optionally adjust the border-radius */
+    }
+
+    .hero-image {
+        display: none;
+    }
+
+    footer {
+        text-align: center; /* Center-align text for better aesthetics on small screens */
+    }
+}
+
+
+
 
